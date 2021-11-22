@@ -1,0 +1,6 @@
+@CircuitBreaker(maxAttempts = MAX_ATTEMPT, openTimeout = OPEN_TIME_OUT, resetTimeout = REST_TIME_OUT)
+
+
+@Recover
+
+@EnableRetry
